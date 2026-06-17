@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title class="title">To-Do List</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h2>To-Do List</h2>
+            <input id="gettask" type="text" class="inp">
+            <button id="submit" onclick="addtask() " class="addbutton">Add</button>
+            <div>
+                <button onclick="showAll()" class="all">All</button>
+                <button onclick="showPending() "class="pending">Pending</button>
+                <button onclick="showCompleted()" class="complist">Completed</button>
+            </div>
+        
+            <div id="pendingSection">
+                <h3>Pending</h3>
+                <ul id="todolist" class="todo"></ul>
+            </div>
+
+            <div id="completedSection">
+                <h3 class="completed">Completed</h3>
+                <ul id="complist" class="comp"></ul>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,61 @@
+body{
+    
+    display: flex;
+    font-family: "Poppins",sans-serif;
+}
+
+.container{
+    text-align: center;
+    background-color: 93939b;
+    width: 300px;
+    margin: auto;
+    
+
+}
+
+.todo,.comp{
+    text-align: justify;
+}
+.deletebutton{
+    background-color: f1b5b5;
+    border-radius: 5px;
+    align-items: right;
+}
+.compbutton{
+    background-color: aab7ae;
+    border-radius: 5px;
+
+}
+
+.addbutton{
+    background-color: ffdedc;
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.title,.completed{
+    font-weight: 700;
+}
+
+.inp{
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.all,.pending,.complist{
+    background-color: c6d2c6;
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+}
+
